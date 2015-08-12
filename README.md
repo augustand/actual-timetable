@@ -1,5 +1,7 @@
 # Reboot实战班课程表
 
+> 实战班实现目标：[demo](http://180.153.191.128/) 
+
 ## python基础（一）
 + Python的特点
 + 第一个python程序
