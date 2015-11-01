@@ -91,6 +91,9 @@ index、count）
 ## 前端基础（八）
 
 
+* 前端基础
+    - css
+    - javascript基础
 * 前端学习之jquery
 * Ajax调用python接口
 * Bootstrap框架学习
@@ -104,32 +107,35 @@ index、count）
 * CMDB系统资产表设计
 * CMDB系统数据展现
 * CMDB系统数据更新
-
-## Python 常用模块（十）
-
-
-
-* 常用内置模块（sys、os、commands）
-* 脚本参数处理（sys.argv、optparse）
-* 项目1：写WC、grep的python版本
-* 实现目标（bash中wc和grep的基本功能实现）
-* 项目目的（对脚本传参及参数处理和函数的练习）
-* 定时获取机器的内存占用等信息，存储数据库
-* 前端图表库highcharts的使用，展示获取的内存信息变化图
-
+* jquery插件的使用
+    - 常用插件
+    - 网上的插件如何使用
 
 
 ## Python 抽象（十一）
 
-
 + 类的基本概念与详解
++ 变量与方法
 + 作用域与命名空间
++ 继承
 + 类的抽象、封装、方法与实例化实践
-+ 项目：CS网络游戏程序（有医生、士兵、恐怖分子）
++ 自动化运维系统的设计概述
+
+
+
+## Python 常用模块（十一）
+
+* 常用内置模块（sys、os、commands）
+* 脚本参数处理（sys.argv、optparse）
+* 项目1：写WC、grep的python版本
+* 项目目的（对脚本传参及参数处理和函数的练习）
+* 定时获取机器的内存占用等信息，存储数据库
+* 自动化运维基础--pssh的设计和实现
+* 
+
+
 
 ## Python 网络编程基础（十二）
-
-
 
 * Python标准库介绍
 * 操作系统接口
