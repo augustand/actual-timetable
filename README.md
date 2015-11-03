@@ -1,8 +1,5 @@
 # Reboot实战班课程表
 
-> 实战班实现目标：[demo](http://180.153.191.128/) 
-
-
 ## 学员可完成项目
 
 
@@ -164,7 +161,8 @@ index、count）
 * 存储的内存数据可视化
 * 项目扩展介绍
 
-##(十三）实战项目之三（[Python写一个简单的监控系统](http://blog.51reboot.com/python36-falcon-mon-video/)）
+## （十三）实战项目之三（[Python写一个简单的监控系统](http://blog.51reboot.com/python36-falcon-mon-video/)）
+
 * Python读取机器的实时使用数据，通过http请求将数据入库
 * 设计数据入库的api，可以收集不同机器的数据
 * 前端将内存数据读出，可视化展示折线图
