@@ -1,25 +1,33 @@
+
 # Reboot实战班课程表
 
 ## 学员可完成项目
 
+###实战项目之一（精简版CMDB）
 
-###实战项目之一（精简版CMDB） 
-    - 前端html+css+js展示
-    - 操作通过ajax异步请求
-    - 数据存储在mysql
-    - 独立完成此项目，会对整体的web架构有很好的了解
-###实战项目之二（Nginx访问日志入库可视化）
-    - 用Python读取Nginx日志文件，进行数据统计
-    - 根据ip,访问地址和访问状态做数据统计，统计结果保存数据库
-    - 前端读取数据处理结果，可视化展示
+* html+css+js多种前端技术结合
+* ajax异步请求操作
+* 常见数据库设计原则、CMDB表结构实战、mysql实操
+* 独立完成此项目，会对整体的web(LAMP)架构有很好的了解
 
-###实战项目之三（Python三十六式：Python写一个简单的监控系统）
-    - Python读取机器的实时使用数据，通过http请求将数据入库
-    - 设计数据入库的api，可以收集不同机器的数据
-    - 前端将内存数据读出，可视化展示折线图
-    - 独立完成此项目，对Python常用的time等模块有很好的掌握
 
-## （一）Python基础
+###实战项目之二（Nginx日志统计分析与多维可视化）
+* 用Python处理Nginx日志文件，进行多维度数据统计分析
+* 根据ip、访问地址和访问状态等数据统计，统计结果保存数据库
+* Highcharts等流行前端技术多维度将分析结果可视化展示
+
+
+
+###实战项目之三（[快速构建实用监控系统](http://blog.51reboot.com/python36-falcon-mon-video/)）
+* Python读取机器的实时使用数据，通过http请求将数据入库
+* 设计数据入库的api，可以收集不同机器的数据
+* 前端将内存数据读出，可视化展示折线图
+* 独立完成此项目，对Python常用的time等模块有很好的掌握
+
+
+----
+
+##（一）Python基础
 + Python的特点
 + 第一个Python程序
 + 数字、字符串
@@ -36,7 +44,7 @@
 
 
 
-## （二）Python列表
+##（二）Python列表
               
 * 列表（分片、步长、方法）
 * 常用内置函数（max、min、range）
@@ -52,7 +60,7 @@
 ##（三）Python字典 字符串
 
                 
- *字符串方法（find、join、split、strip、format、replace、
+ * 字符串方法（find、join、split、strip、format、replace、
 index、count）
 
  * 字典常用方法、字典格式化字符串
@@ -91,7 +99,7 @@ index、count）
 
 * Python的模块
 * 简单的html（table、表单）学习
-* 简单web框架flask介绍
+* 简单web框架Flask介绍
 * 前端jquery简介
 * 作业1：写一个用户注册的html表单（数据存在文件里，支持增删查）
 * 作业2：第五天计算器的题，支持优先级 
@@ -100,9 +108,9 @@ index、count）
 
 * 简单的sql语句学习（增添改查）、数据库建表
 * Python执行sql，控制数据库
-* 项目1：用flask实现数据库的增添改查
+* 项目1：用Flask实现数据库的增添改查
 * 实现目标（可以简单的实现web增添改查功能）
-* 项目目的（对flask、MySQLdb的学习）  
+* 项目目的（对Flask、MySQLdb的学习）  
 * 将第六天的作业，存储改为mysql
 
 ##（八）前端基础
@@ -114,7 +122,7 @@ index、count）
 * 前端学习之jquery
 * Ajax调用Python接口
 * Bootstrap框架学习
-* 作业：对第7天的flask增删改查提供前端页面，通过web页面对数据库增删改查
+* 作业：对第7天的Flask增删改查提供前端页面，通过web页面对数据库增删改查
 * 要求：异步加载数据，不刷新页面
 
 ##（九）实战项目之cmdb
@@ -150,7 +158,19 @@ index、count）
 * 单机上线流程介绍
 
 
-##（十二）实战项目之二（Nginx访问日志入库可视化）
+
+
+## （十三）实战项目之二（[Python写一个简单的监控系统](http://blog.51reboot.com/python36-falcon-mon-video/)）
+
+* Python读取机器的实时使用数据，通过http请求将数据入库
+* 设计数据入库的api，可以收集不同机器的数据
+* 前端将内存数据读出，可视化展示折线图
+* 独立完成此项目，对Python常用的time等模块有很好的掌握
+
+
+
+
+##（十三）实战项目之三（Nginx访问日志入库可视化）
 
 * 将Nginx日志处理结果入库
 * Flask模板系统，多页面继承
@@ -160,10 +180,13 @@ index、count）
     - 折线图等等
 * 存储的内存数据可视化
 * 项目扩展介绍
+ 
+## （赠送）Flask扩展
+* Flask大型应用的代码组织结构
+    * 用包来组织代码介绍。 适用场景分析demo实现，
+    * 用蓝图来组织代码介绍。分区结构 VS 功能结构，适用场景分析。demo实现
 
-## （十三）实战项目之三（[Python写一个简单的监控系统](http://blog.51reboot.com/python36-falcon-mon-video/)）
-
-* Python读取机器的实时使用数据，通过http请求将数据入库
-* 设计数据入库的api，可以收集不同机器的数据
-* 前端将内存数据读出，可视化展示折线图
-* 独立完成此项目，对Python常用的time等模块有很好的掌握
+* Flask-script扩展。应用场景分析， demo实现
+* Flask-SQLAlchemy扩展（ORM）应用场景分析，简单demo实现
+* Flask-Migrate扩展,应用场景分析，简单demo实现
+* restful api分析及Flask-restful扩展介绍，应用场景分析 ，简单demo实现
